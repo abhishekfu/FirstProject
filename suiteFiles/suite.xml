@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test" verbose="2">
+    <test name="Google" preserve-order="true">
+        <classes>
+            <class name="Selenium.demo.FacebookTest" />   
+             <class name="Selenium.demo.Fun" />        
+        </classes>
+    </test>
+</suite>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+<test name="fb">
+<classes> 
+<class name="Selenium.demo.Facebook"/>
+</classes>
+</test>
+</suite> -->
